@@ -1,0 +1,8 @@
+alias path5-test='cd ~/QA/P5P6QA/path5/;. ~/QA/P5P6QA/target-path5/venv-acceptance/bin/activate'
+alias path6-test='cd ~/QA/P5P6QA/path6/;. ~/QA/P5P6QA/target-path6/venv-acceptance/bin/activate'
+alias qa='cd ~/QA'
+alias git-log='git log --pretty=format:"%H %C(white)%ad %C(yellow)| %C(cyan)%s%C(red)%C(bold)%d %C(nobold)%C(yellow)[%an]" --graph --date=short'
+alias vpn-tid='sudo  openconnect --user=cx01826 --cafile=$HOME/Documentos/i+d/Certi_ROOT_CA_2030_key_RSA_2048.crt -c $HOME/Documentos/i+d/cx01826.pem vpn.tid.es'
+alias path5-venv='. ~/QA/P5P6QA/target-path5/venv-acceptance/bin/activate'
+alias path6-venv='. ~/QA/P5P6QA/target-path6/venv-acceptance/bin/activate'
+alias tunel_activeMQ='ssh ubuntu@p5p6qa -L 61613:localhost:61613' 
