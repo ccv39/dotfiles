@@ -1,34 +1,5 @@
+# This is Git's per-user configuration file.
 [user]
-	name = Gorka Revilla
-	email = gorkarevilla@gmail.com
-[core]
-        editor = vim
-[merge]
-	tool = vimdiff
-
-# The following code is not mine.
-# Taken from http://www.kunday.com/post/29594688306/git-config-hacks
-[color]
-        branch = auto
-        diff = auto
-        status = auto
-
-[color "branch"]
-    	current = yellow reverse
-    	local = yellow
-    	remote = green
-
-[color "diff"]
-    	meta = yellow bold
-    	frag = magenta bold
-    	old = red bold
-    	new = green bold
-
-[color "status"]
-    	added = yellow
-    	changed = green
-    	untracked = cyan
-[alias]
-	grafico = log --oneline --decorate --all --graph
-[push]
-	default = simple
+# Please adapt and uncomment the following lines:
+	name = carlos.crespo
+	email = carlos.crespo@11paths.com
